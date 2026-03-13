@@ -1,0 +1,3 @@
+filter ($user: User, $session: Session) on ModelA [
+  where userId == $user.id
+]
